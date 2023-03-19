@@ -8,12 +8,12 @@ let counterValue = 0;
 
 // Click listenery do przycisków, wewnątrz których zwiększa i zmniejsza się wartość licznika.
 // Interfejs aktualizuje się nową wartością zmiennej counterValue.
-const valueIncrement = btnIncrement.addEventListener("click", () => {
+btnIncrement.addEventListener("click", () => {
   counterValue++;
   counterEl.textContent = counterValue;
 });
 
-const valueDecrement = btnDecrement.addEventListener("click", () => {
+btnDecrement.addEventListener("click", () => {
   counterValue--;
   counterEl.textContent = counterValue;
 });
