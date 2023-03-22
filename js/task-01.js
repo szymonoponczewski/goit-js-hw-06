@@ -2,7 +2,7 @@
 const categoriesCount = document.querySelectorAll(".item");
 console.log(`Number of categories: ${categoriesCount.length}`);
 
-// iteruję metodą .forEch po kazdym elemencie pseudotablicy categoriesCount
+// iteruję metodą .forEach po kazdym elemencie pseudotablicy categoriesCount
 // i dla kadego elemmentu drukuję na konsoli zawartość tagu h2 oraz długość
 // pseudotablicy z elementami li.
 categoriesCount.forEach((element) => {
